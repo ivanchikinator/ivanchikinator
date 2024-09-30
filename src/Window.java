@@ -1,4 +1,7 @@
 import javax.swing.*;
 public class Window {
-	JFrame window = new JFrame();
+	public static void main(String[]args) {
+		JFrame window = new JFrame();
+		window.setVisible(true);
+	}
 }
